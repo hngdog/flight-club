@@ -265,7 +265,7 @@ public class XCGame implements EventManager.Interface, Clock.Observer {
 
         //Text
         if (textMessage != null) {
-            Font font = new Font("SansSerif", Font.PLAIN, 10);
+            Font font = new Font("SansSerif", Font.PLAIN, 12);
             g.setFont(font);
             g.setColor(Color.LIGHT_GRAY);
 

@@ -99,7 +99,7 @@ public class Compass {
         g.setColor(Color.LIGHT_GRAY);
         g.drawLine(txs_[0], tys_[0], txs_[1], tys_[1]);
 
-        Font font = new Font("SansSerif", Font.PLAIN, 10);
+        Font font = new Font("SansSerif", Font.PLAIN, 12);
         g.setFont(font);
         g.setColor(Color.LIGHT_GRAY);
         g.drawString("N", x0 - 3, y0 - r * 2 - dy);

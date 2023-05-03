@@ -60,7 +60,7 @@ public class Glider extends FlyingBody {
         if (!isUser) {
             gliderShape = new GliderShape(app);
         } else {
-            gliderShape = new GliderShape(app, Color.YELLOW);
+            gliderShape = new GliderShape(app, Color.TEAL);
         }
 
         this.init(gliderShape, p);

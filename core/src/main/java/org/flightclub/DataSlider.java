@@ -73,7 +73,7 @@ public class DataSlider {
         g.drawLine(x0, y0 - dy, x0, y0 - size - dy);
 
         if (label != null) {
-            Font font = new Font("SansSerif", Font.PLAIN, 10);
+            Font font = new Font("SansSerif", Font.PLAIN, 12);
             g.setFont(font);
             g.drawString(label, x0 - 10, y0);
         }

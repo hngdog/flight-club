@@ -65,6 +65,11 @@ public class Color {
     public final static Color CYAN = new Color(0, 255, 255);
 
     /**
+     * The color cyan.  In the default sRGB space.
+     */
+    public final static Color TEAL = new Color(0, 255, 200);
+
+    /**
      * The color blue.  In the default sRGB space.
      */
     public final static Color BLUE = new Color(0, 0, 255);
