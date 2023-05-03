@@ -47,8 +47,8 @@ public class XCGameFrame extends Frame {
             }
         });
     }
-
+/* made larger frame for local java app run */
     public static void main(String s[]) {
-        new XCGameFrame("Flight Club", 640, 490);
+        new XCGameFrame("Flight Club", 1920, 1080);
     }
 }
