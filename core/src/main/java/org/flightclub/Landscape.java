@@ -147,7 +147,7 @@ public class Landscape implements CameraSubject {
         wire = new Vector<>();
         wire.addElement(new Vector3d(x1, y0, 0));
         wire.addElement(new Vector3d(x2, y0, 0));
-        o.addWire(wire, new Color(220, 220, 100), false, false);
+        o.addWire(wire, new Color(220, 100, 100), false, false);
 
         wire = new Vector<>();
         wire.addElement(new Vector3d(x1, 0, 0));

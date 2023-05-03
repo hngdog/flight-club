@@ -1,4 +1,15 @@
-apply plugin: 'java'
+plugins {
+    id 'com.github.johnrengelman.shadow'
+    id 'java'
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+}
+
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+shadowJar {
+    baseName = 'core'
+    version = '1.0.0'
+}

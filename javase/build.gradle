@@ -1,11 +1,19 @@
-apply plugin: 'java'
-apply plugin: 'application'
+plugins {
+    id 'com.github.johnrengelman.shadow'
+	id 'application'
+}
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 mainClassName = 'org.flightclub.XCGameFrame'
 
 dependencies {
-    compile project(':core')
+    implementation project(':core')
+}
+
+shadowJar {
+    baseName = 'javase'
+    version = '1.0.0'
 }
